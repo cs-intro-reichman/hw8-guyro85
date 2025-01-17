@@ -30,7 +30,7 @@ public class Network {
      *  Notice that the method receives a String, and returns a User object. */
     public User getUser(String name) {
         for (User user : users){
-            if (user != null && user.getName().equals(name)){
+            if (user != null && user.getName().toLowerCase().equals(name.toLowerCase())){
                 return user;
             }
         }
@@ -52,6 +52,7 @@ public class Network {
                 break;
             }
         }
+        userCount++;
         return true;
     }
 
