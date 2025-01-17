@@ -79,7 +79,7 @@
             }
         }
         if (idx != -1){
-            for (int i = idx; i < fCount - 1; i++){
+            for (int i = idx; i < fCount; i++){
                 follows[i] = follows[i + 1];
             }
             return true;
