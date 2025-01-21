@@ -6,7 +6,7 @@ public class UserTest {
         System.out.println("...To get started, creating a dummy user for testing the toString and follows methods...\n");
         User dummy = new User("Dummy", true);
         System.out.println(dummy);
-        System.out.println("Dummy follows Bar: " + dummy.follows("Bar"));
+        System.out.println("Dummy follows Baz: " + dummy.follows("Baz"));
         System.out.println("Dummy follows Gil: " + dummy.follows("Gil"));
 
         System.out.println("\n...Now starts the serious testing..\n");
